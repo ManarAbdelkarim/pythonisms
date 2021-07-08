@@ -16,8 +16,6 @@ def test_iter(test):
 
 
 
-
-
 @pytest.fixture()
 def test():
     linked = LinkedList()
@@ -25,7 +23,6 @@ def test():
     linked.insert(2)
     linked.insert(3)
     linked.insert(4)
-
 
     linked2 = LinkedList()
     linked2.insert(1)
